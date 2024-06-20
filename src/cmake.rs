@@ -43,7 +43,7 @@ impl NeoCMakeExt {
                 zed::Os::Windows => "pc-windows-msvc.exe",
             },
             arch = match arch {
-                zed::Architecture::Aarch64 => return Err("unsupported platform aarch64".into()),
+                zed::Architecture::Aarch64 => "aarch64",
                 zed::Architecture::X8664 => "x86_64",
                 zed::Architecture::X86 => return Err("unsupported platform x86".into()),
             },

@@ -1,15 +1,15 @@
 id = "neocmake"
 name = "NeoCMake"
-version = "0.0.2"
+version = "0.0.3"
 schema_version = 1
-authors = ["Sorochan Ilya <sorochanilyav@gmail.com>"]
+authors = ["voiddog <voiddog@foxmail.com>"]
 description = "CMake grammar and lsp with neocmakelsp"
-repository = "https://github.com/k0tran/zed_neocmake"
+repository = "https://github.com/voiddog/zed_neocmake"
 
 [language_servers.cmake]
 name = "neocmakelsp"
 language = "CMake"
 
 [grammars.cmake]
-repository = "https://github.com/uyha/tree-sitter-cmake"
-commit = "47564fb0045710aaaa26b4972f4f986297a78280"      # v0.3.0
+repository = "https://github.com/voiddog/zed_neocmake"
+commit = "7cab1dd03e0f5055f253571778c571004aed0f4d"      # v0.3.0
