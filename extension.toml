@@ -12,4 +12,4 @@ language = "CMake"
 
 [grammars.cmake]
 repository = "https://github.com/voiddog/zed_neocmake"
-commit = "7cab1dd03e0f5055f253571778c571004aed0f4d"      # v0.3.0
+commit = "ad6aed284505f660d844a27797d9138134db2613"      # v0.3.0
